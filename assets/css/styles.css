@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400;1,800&display=swap');
+
+/* 
+font-families : {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+} */
+
+
+/* brand-colours  */
+:root{
+    --green : #61892F;
+    --orange : #86C232;
+    --black : #222629;
+    --off-blue : #49c5b6;
+    --white : #fff;
+    --grey-1 : #474B4F;
+    --grey-2 : #6B6E70;
+    --off-white : #f5f5f5;
+}
+
+
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* /body  */
+body {
+    margin: 0;
+    background-color: var(--black);
+}
+
+/* #navbar - style  */
+.nav-bar {
+    padding: 10px;
+}
+
+
+.nav-bar .logo img{
+    width: 150px;
+}
+
+nav .logo {
+    float: left;
+    padding: 6px 24px;
+}
+
+nav .links {
+    float: right;
+    padding: 8px 24px;
+}
+
+nav .links ul li{
+    display: inline;
+    padding: 6px 12px;
+}
+
+nav .links li a {
+    text-decoration: none;
+    color: var(--off-white);
+}
+
+
+nav .links li a:hover{
+    color: var(--off-blue);
+}
+
+
+
